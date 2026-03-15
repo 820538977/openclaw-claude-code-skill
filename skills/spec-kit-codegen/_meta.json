@@ -1,0 +1,21 @@
+{
+  "name": "spec-kit-codegen",
+  "version": "1.0.0",
+  "description": "通过 OpenClaw 调用 Claude Code + Spec-Kit 实现规范化的代码生成工作流",
+  "author": "OpenClaw",
+  "homepage": "",
+  "keywords": [
+    "claude-code",
+    "spec-kit",
+    "codegen",
+    "automation",
+    "wechat-miniprogram"
+  ],
+  "openclaw": {
+    "requires": {
+      "bins": ["claude"],
+      "python": true
+    },
+    "permissions": []
+  }
+}
